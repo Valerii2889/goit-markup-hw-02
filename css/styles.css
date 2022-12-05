@@ -1,29 +1,138 @@
-/* HERO SECTION */
-.hero {
-		background-color: #2E2F42;
-		width: 1440px;
-		height: 603px;
+body {
+		font-family: "Raleway", "Roboto";
+		background: gray;
 }
 
-.hero-title {
+.list {
+		list-style: none;
+}
+
+.link {
+		font-family: inherit;
+}
+
+.btn {
+		font-family: inherit;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.18;
 		display: flex;
-		justify-content: center;
 		align-items: center;
-		font-family: 'Roboto';
-		font-style: normal;
+		letter-spacing: 0.04em;
+		color: #FFFFFF;
+		background-color: transparent;
+		background: #4D5AE5;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+}
+
+.header-link {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #2E2F42;
+		text-decoration: none
+}
+
+.header-phone {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+		text-decoration: none;
+		list-style: none;
+}
+
+.header-mail {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+		text-decoration: none;
+		list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER
+.logo {
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 1.33;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #2E2F42;
+		text-decoration: none;
+}
+
+.logo-logo {
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 1.16;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #4D5AE5;
+}
+
+/* HERO SECTION */
+/* .hero {
+		background-color: #2E2F42;
+		width: 1440px;
+		height: 603px; */
+}
+
+/* .hero-title {
 		font-weight: 600;
 		font-size: 56px;
 		line-height: 1.07;
 		text-align: center;
 		letter-spacing: 0.02em;
-		color: #FFFFFF;
+		color: #FFFFFF; */
 }
 
-.hero-btn {
+/* .hero-btn {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		background: #4D5AE5;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-		border-radius: 4px;
+		border-radius: 4px; */
 }
+
+
+
+/* FOOTER */
+/* .footer {
+		background: #2E2F42;
+		width: 1440px;
+		height: 310px; */
+}
+
+/* .logo-logo { */
+		color: #F4F4FD;
+}
+
+/* .text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #E7E9FC; */
+}
+ */
