@@ -1,33 +1,94 @@
 :root {
-		--span-color:#4D5AE5;
-		--header-hero-footer-color: #2E2F42;
-		--mail-phone-color:#434455;
-		--footer--:#F4F4FD;
+		--primary-text-color:#2E2F42;
+		--title-text-color:#434455;
+		--accent-color:#4D5AE5;
+
+		
+				--footer--:#F4F4FD;
 		--footer-p:#E7E9FC;
 }
 
+/* цвет основного текста
+background: #2E2F42;*/
+
+/* вторичный цвет текста
+color: #434455; */
+
+
+
+/* цвет hero текста
+background: #FFFFFF;*/
+
+
+/* синий btn и текст WEB
+background: #4D5AE5; */
+
+
+/* белый текст STUDIO
+color: #F4F4FD; */
+
+/* белый footer p
+color: #E7E9FC; */
+
+
 body {
-		font-family: "Roboto";
-		font-family: inherit;
+		font-family: "Roboto", sans-serif;
 		background: #FFFFFF;
+		font-size: 16px;
 }
 
+/* RESET */
+/* h1,h2,h3,h4,h5,h6,p {
+	margin: 0; */
+}
+
+/* UL */
 .list {
 		list-style: none;
+		padding: 0;
+		margin: 0;
 }
 
+/* A */
 .link {
-		font-family: inherit;
+		text-decoration: none;
+		/* color:inherit; */
 }
+
+/* IMG */
+/* img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+} */
+
+
 
 .span:hover,
 .span:focus {
-
+color: var(--accent-color)
 }
 
 
 /* HEADER */
+span {
+		color:  var(--accent-color);
+}
+
+/* HERO */
 
 
 
+/* SECTION 1 */
 
+
+
+/* SECTON 2 */
+
+
+
+/* SECTION 3 */
+
+
+
+/* FOOTER */
