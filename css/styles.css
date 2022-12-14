@@ -2,7 +2,7 @@
 		--primary-text-color:#2E2F42;
 		--title-text-color:#434455;
 		--accent-color:#4D5AE5;
-		--bg-color-bady:#FFFFFF;
+		--bg-color-body:#FFFFFF;
 
 
 		--footer--:#F4F4FD;
@@ -11,7 +11,7 @@
 
 body {
 		font-family: "Roboto", sans-serif;
-		background-color: var(--bg-color-bady)
+		background-color: var(--bg-color-body);
 		font-size: 16px;
 }
 
@@ -53,21 +53,21 @@ body {
 .nav-link {
 	font-weight: 600;
 	font-size: 16px;
-	line-height: 1.50;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color)
 }
 
 .contact-link {
 	font-size: 16px;
-	line-height: 1.50;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
 }
 
 .phone-link {
 	font-size: 16px;
-	line-height: 1.50;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--title-text-color);
 }
@@ -85,7 +85,7 @@ body {
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
-	color: #FFFFFF;
+	color: var(--bg-color-body);
 }
 
 .hero-btn {
@@ -95,7 +95,7 @@ body {
 }
 
 .btn {
-	color: #FFFFFF;
+	color: var(--bg-color-body);
 }
 
 
@@ -104,14 +104,14 @@ body {
 .examples-title {
 		font-weight: 600;
 		font-size: 20px;
-		line-height: 1.20;
+		line-height: 1.2;
 		letter-spacing: 0.02em;
 		color: var(--primary-text-color);
 }
 
 .examples-description {
 		
-		line-height: 1.50;
+		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color:var(--title-text-color);
 }
@@ -131,7 +131,7 @@ body {
 
 
 
-/* __________SECTION 3__________ */
+/* __________SECTION 2__________ */
 .section-title {
 		font-weight: 600;
 		font-size: 36px;
@@ -145,14 +145,13 @@ body {
 .team-name {
 		font-weight: 600;
 		font-size: 20px;
-		line-height: 1.20;
+		line-height: 1.2;
 		letter-spacing: 0.02em;
 		color: var(--primary-text-color);
 }
 
 .team-position {
-		font-size: 16px;
-		line-height: 1.50;
+		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color:var(--title-text-color);
 }
@@ -181,7 +180,7 @@ body {
 }
 
 .footer-description {
-		line-height: 1.50;
+		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color:var(--footer-p);
 }
