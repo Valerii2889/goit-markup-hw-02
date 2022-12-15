@@ -1,11 +1,21 @@
 :root {
 		--primary-text-color: #2E2F42;
 		--title-text-color: #434455;
+
+		--link-color: #4D5AE5;
+
+		--bg-color-main: #FFFFFF;
+
 		--footer--: #F4F4FD;
 		--footer-p: #E7E9FC;
+
 }
 
-
+main {
+		font-family: "Roboto", sans-serif;
+		background-color: var(--bg-color-main);
+		font-size: 16px;
+}
 
 
 
@@ -69,7 +79,26 @@
 
 
 /* __________MAIN__________ */
+.main-btn {
+		background-color:var(--link-color);
+		
+		
+}
 
+.btn {
+		line-height: 1.5px;
+		text-align: center;
+		letter-spacing: 0.04em;
+		color:var(--bg-color-main);
+}
+
+.main-link {
+		font-weight: 600;
+		line-height: 1.5;
+		text-align: center;
+		letter-spacing: 0.04em;
+		color: var(--link-color);
+}
 
 
 
@@ -83,7 +112,6 @@
 
 
 /* __________FOOTER__________ */
-
 .footer {
 		background-color: var(--primary-text-color);
 }
