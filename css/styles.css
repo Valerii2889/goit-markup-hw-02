@@ -116,15 +116,7 @@ body {
 
 
 /* __________SECTON 1__________ */
-.section-title {
-		font-weight: 600;
-		font-size: 36px;
-		line-height: 1.11;
-		text-align: center;
-		letter-spacing: 0.02em;
-		text-transform: capitalize;
-		color: var(--primary-text-color);
-}
+
 
 
 
@@ -187,14 +179,14 @@ body {
 
 /* __________MAIN__________ */
 .main-btn {
-		/* background:var(--accent-color); */
-		
-
-	
 		line-height: 1.5;
 		text-align: center;
 		letter-spacing: 0.04em;
 		color: #4D5AE5;
+}
+
+.main-btn-primary {
+		background: var(--accent-color);
 }
 
 .main-link {
